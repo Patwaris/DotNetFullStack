@@ -1,4 +1,5 @@
 8/18/2020
+-----------------
 
 Session :1 
 
@@ -34,8 +35,7 @@ Refer dll of third party ( ABCPDF ) -- C++,C
  
  Garbage Collector
  
- -------------------
- 
+  
  CTS
  
  datatype 
@@ -63,6 +63,7 @@ Refer dll of third party ( ABCPDF ) -- C++,C
  
  
  8/19/2020
+ -----------
  
  GitHub 
  
@@ -78,17 +79,43 @@ Refer dll of third party ( ABCPDF ) -- C++,C
  
  
  8/20/2020
+ ------------
  
  - Exception Handling
- -Access Modifiers
+ 
  - OOPS -
 	Class, object , properties etc
-	Encapsulation 
+	
 	
 	
 	Class A --> Class B (prop of class B)
+	
+	
+ 
+ 8/21/2020
+ ----------
+-Access Modifiers
+
+Types :
+
+1. Public 
+2. private 
+3. Protected
+4. internal
+5. protected internal 
+6. private protected
  
  
+ project 1 - internal GetEmp 
+ 
+ project 2  - If I refer the project 1 
+
+
+
+Feedback:
+1. Assignments
+2. utilizaton of 1 and half hour 
+
  
  
  
