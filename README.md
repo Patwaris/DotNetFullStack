@@ -111,10 +111,22 @@ Types :
  project 2  - If I refer the project 1 
 
 
+8/25/2020
+---------
+OOPS
+1.Encapsulation
+	
+2.Inheritance
+
+3.Polymorphism
+
+
 
 Feedback:
 1. Assignments
 2. utilizaton of 1 and half hour 
+
+
 
  
  
