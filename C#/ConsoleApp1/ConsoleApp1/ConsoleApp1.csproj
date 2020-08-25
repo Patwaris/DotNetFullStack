@@ -44,9 +44,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AccessModifiers.cs" />
+    <Compile Include="InheritanceDemo.cs" />
+    <Compile Include="User.cs" />
     <Compile Include="EncapsulationDemo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserDetails.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

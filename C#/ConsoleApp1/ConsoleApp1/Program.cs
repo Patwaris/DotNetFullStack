@@ -35,8 +35,28 @@ namespace ConsoleApp1
 
             //******Access Modifiers CODE  ******
 
-            AccessModifiers objAcc = new AccessModifiers();
-            objAcc.GetEmpName();
+            //AccessModifiers objAcc = new AccessModifiers();
+            //objAcc.GetEmpName();
+
+
+            //******Encapsulation ****
+
+            //EncapsulationDemo e = new EncapsulationDemo();            
+            //e.setX(-50);
+            //Console.WriteLine(e.getX());          
+            //Console.ReadKey();
+
+            //****Constructor ****
+            //User objuser = new User();
+            //objuser.getUsername();
+
+            //***Inheritance ****
+            //UserDetails objUdetails = new UserDetails();
+            //objUdetails.Name = "Bharath P";
+
+            //objUdetails.Age = 34;
+            //objUdetails.GetUserInfo("Test");
+            //objUdetails.GetAge();
         }
     }
 }

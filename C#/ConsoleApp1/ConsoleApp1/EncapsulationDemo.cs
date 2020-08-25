@@ -25,17 +25,5 @@ namespace ConsoleApp1
             }
         }
     }
-    class Sample
-    {
-        //public static void Main()
-        //{
-        //    EncapsulationDemo e = new EncapsulationDemo();            
-        //    e.setX(10);
-        //    Console.WriteLine(e.getX());
-        //    e.setX(-50);
-        //    Console.WriteLine(e.getX());
-        //    Console.WriteLine("Press any key to exist");
-        //    Console.ReadKey();
-        //}
-    }
+    
 }
