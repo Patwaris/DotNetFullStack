@@ -118,7 +118,14 @@ OOPS
 	
 2.Inheritance
 
-3.Polymorphism
+8/6/2020
+--------
+Inheritance 
+	-> Multilevel Inheritance
+	-> Multiple Inheritance
+Polymorphism
+	->Complietime Polymorphism
+	->Runtime Polymorphism
 
 
 
