@@ -1,5 +1,6 @@
 ﻿using System;
 using static ConsoleApp1.MultiLevelInheritance;
+using static ConsoleApp1.Polymorphism;
 
 namespace ConsoleApp1
 {
@@ -62,13 +63,25 @@ namespace ConsoleApp1
 
             //******MULTILEVEL INHERITANCE **********************************
 
-            C c = new C();
-            c.Name = "Bharath";
-            c.Location = "Hyderabad";
-            c.Age = 34;
-            c.GetName();
-            c.GetLocation();
-            c.GetAge();
+            //C objc = new C();
+            //objc.Name = "Bharath";
+            //objc.Location = "Hyderabad";
+            //objc.Age = 34;
+            //objc.GetName();
+            //objc.GetLocation();
+            //objc.GetAge();
+
+
+            //********POLYMORPHISM - COMPILE TIME******************************************
+            //Polymorphism objPoly = new Polymorphism();
+            //objPoly.AddNumbers(5, 6,8);
+
+            //***********POLYMORPHISM - RUN TIME******************************************
+            BClass objB = new BClass();
+            objB.GetLoanInfo();
+
+            AClass objA = new AClass();
+            objA.GetLoanInfo();
         }
     }
 }
