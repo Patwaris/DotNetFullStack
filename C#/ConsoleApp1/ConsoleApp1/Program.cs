@@ -1,5 +1,5 @@
 ﻿using System;
-
+using static ConsoleApp1.MultiLevelInheritance;
 
 namespace ConsoleApp1
 {
@@ -7,7 +7,7 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            //******EXCEPTION HANDLING CODE  ******
+            //******EXCEPTION HANDLING CODE  **********************************
 
             //try
             //{                
@@ -33,30 +33,42 @@ namespace ConsoleApp1
             //    //code
             //}
 
-            //******Access Modifiers CODE  ******
+            //******ACCESS MODIFIERS CODE  **********************************
 
             //AccessModifiers objAcc = new AccessModifiers();
             //objAcc.GetEmpName();
 
 
-            //******Encapsulation ****
+            //******ENCAPSULATION *******************************************
 
             //EncapsulationDemo e = new EncapsulationDemo();            
             //e.setX(-50);
             //Console.WriteLine(e.getX());          
             //Console.ReadKey();
 
-            //****Constructor ****
+            //****CONSTRUCTOR ***********************************************
+
             //User objuser = new User();
             //objuser.getUsername();
 
-            //***Inheritance ****
+            //***INHERITANCE *************************************************
+
             //UserDetails objUdetails = new UserDetails();
             //objUdetails.Name = "Bharath P";
 
             //objUdetails.Age = 34;
             //objUdetails.GetUserInfo("Test");
             //objUdetails.GetAge();
+
+            //******MULTILEVEL INHERITANCE **********************************
+
+            C c = new C();
+            c.Name = "Bharath";
+            c.Location = "Hyderabad";
+            c.Age = 34;
+            c.GetName();
+            c.GetLocation();
+            c.GetAge();
         }
     }
 }
