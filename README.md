@@ -118,7 +118,7 @@ OOPS
 	
 2.Inheritance
 
-8/6/2020
+8/26/2020
 --------
 Inheritance 
 	-> Multilevel Inheritance
@@ -127,7 +127,16 @@ Polymorphism
 	->Complietime Polymorphism
 	->Runtime Polymorphism
 
+9/01/2020
+---------
+Sealed Class
 
+- data type 
+	Array
+-Iteration loops 
+	For Loop
+	While Loop
+	For each Loop
 
 Feedback:
 1. Assignments
