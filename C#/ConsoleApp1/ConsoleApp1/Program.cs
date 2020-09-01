@@ -77,11 +77,39 @@ namespace ConsoleApp1
             //objPoly.AddNumbers(5, 6,8);
 
             //***********POLYMORPHISM - RUN TIME******************************************
-            BClass objB = new BClass();
-            objB.GetLoanInfo();
+            //BClass objB = new BClass();
+            //objB.GetLoanInfo();
 
-            AClass objA = new AClass();
-            objA.GetLoanInfo();
+            //AClass objA = new AClass();
+            //objA.GetLoanInfo();
+
+
+            //ARRAYS*****FOR LOOP********FOR EACH********WHILE******************
+
+            // type[] arraname;
+            string[] data = new string[2] { "Test1", "Test2" };
+
+            for (int i = 1; i < data.Length; i++)
+            {
+                Console.WriteLine(data[i]);
+                Console.ReadLine();
+            }
+
+
+            //foreach (var item in data)
+            //{
+            //    Console.WriteLine(item);
+            //    Console.ReadLine();
+            //}
+
+
+            //int i = 0;
+            //while (i <= data.Length)
+            //{
+            //    Console.WriteLine(i);
+            //    Console.ReadLine();
+            //    i++;
+            //}
         }
     }
 }
