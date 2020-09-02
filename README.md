@@ -138,6 +138,13 @@ Sealed Class
 	While Loop
 	For each Loop
 
+9/02/2020
+----------
+Static Class
+Abstract Class
+Interfaces
+
+
 Feedback:
 1. Assignments
 2. utilizaton of 1 and half hour 
