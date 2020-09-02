@@ -47,6 +47,7 @@
     <Compile Include="InheritanceDemo.cs" />
     <Compile Include="MultiLevelInheritance.cs" />
     <Compile Include="Polymorphism.cs" />
+    <Compile Include="StaticClassDemo.cs" />
     <Compile Include="User.cs" />
     <Compile Include="EncapsulationDemo.cs" />
     <Compile Include="Program.cs" />

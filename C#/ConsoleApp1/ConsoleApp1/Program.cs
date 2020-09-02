@@ -87,13 +87,13 @@ namespace ConsoleApp1
             //ARRAYS*****FOR LOOP********FOR EACH********WHILE******************
 
             // type[] arraname;
-            string[] data = new string[2] { "Test1", "Test2" };
+            //string[] data = new string[2] { "Test1", "Test2" };
 
-            for (int i = 1; i < data.Length; i++)
-            {
-                Console.WriteLine(data[i]);
-                Console.ReadLine();
-            }
+            //for (int i = 1; i < data.Length; i++)
+            //{
+            //    Console.WriteLine(data[i]);
+            //    Console.ReadLine();
+            //}
 
 
             //foreach (var item in data)
@@ -110,6 +110,12 @@ namespace ConsoleApp1
             //    Console.ReadLine();
             //    i++;
             //}
+
+            string name = StaticClassDemo.FirstName;
+            string userId = StaticClassDemo.GetUserId();
+
+
+          
         }
     }
 }
