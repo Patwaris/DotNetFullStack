@@ -43,8 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AbstractClassDemo.cs" />
     <Compile Include="AccessModifiers.cs" />
+    <Compile Include="CustDetails.cs" />
     <Compile Include="InheritanceDemo.cs" />
+    <Compile Include="InterfaceDemo.cs" />
     <Compile Include="MultiLevelInheritance.cs" />
     <Compile Include="Polymorphism.cs" />
     <Compile Include="StaticClassDemo.cs" />

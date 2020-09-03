@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Reflection;
 using static ConsoleApp1.MultiLevelInheritance;
 using static ConsoleApp1.Polymorphism;
 
@@ -49,8 +51,9 @@ namespace ConsoleApp1
 
             //****CONSTRUCTOR ***********************************************
 
-            //User objuser = new User();
-            //objuser.getUsername();
+            User objuser = new User();
+            objuser.getUsername();
+
 
             //***INHERITANCE *************************************************
 
@@ -111,12 +114,51 @@ namespace ConsoleApp1
             //    i++;
             //}
 
-            string name = StaticClassDemo.FirstName;
-            string userId = StaticClassDemo.GetUserId();
+            //string name = StaticClassDemo.FirstName;
+            //string userId = StaticClassDemo.GetUserId();
 
 
-          
+            //*******LIST **********
+
+            //List<string> mylist = new List<string>();
+            //mylist.Add("test1");
+            //mylist.Add("test2");
+            //mylist.Add("test3");
+            //Console.WriteLine(mylist.Count);
+            //Console.ReadLine();
+            //mylist.Clear();
+            //Console.WriteLine(mylist.Count);
+            //Console.ReadLine();
+
+
+            //foreach (var item in mylist)
+            //{
+            //    Console.WriteLine(item);
+            //    Console.ReadLine();
+            //}
+
+            //*******REFLECTION *******
+            //List<CustDetails> items = new List<CustDetails>();            
+            //items.Add(new CustDetails { custId = 1, custName = "ABC" });
+            //items.Add(new CustDetails { custId = 2, custName = "DEF" });
+
+            //foreach (var item in items)
+            //{
+            //    GetPropertyInfo(item);
+            //}
+
         }
+        //REFLECTION*******
+        //private static void GetPropertyInfo(CustDetails cust)
+        //{
+        //    Type type = cust.GetType();
+        //    PropertyInfo[] props = type.GetProperties();
+        //    foreach (var item in props)
+        //    {
+        //        Console.WriteLine(item.PropertyType);
+        //        Console.ReadLine();
+        //    }
+        //}
     }
 }
 

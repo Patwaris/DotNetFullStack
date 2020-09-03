@@ -8,7 +8,9 @@ namespace ConsoleApp1
 {
     public class User
     {
-        string name;
+        public int MyProperty { get; }
+
+        readonly string name = "test";
         //Constructor
         public User()
         {
@@ -16,7 +18,7 @@ namespace ConsoleApp1
             //Logic
         }
         public string getUsername()
-        {
+        {           
             return name;
             //logic
         }
