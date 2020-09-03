@@ -144,6 +144,14 @@ Static Class
 Abstract Class
 Interfaces
 
+9/03/2020
+-----------
+List
+Reflection
+Const
+Readonly
+Enum
+
 
 Feedback:
 1. Assignments
