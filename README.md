@@ -152,6 +152,22 @@ Interfaces
 -Readonly
 -Enum
 
+9/09/2020
+-----------
+Web Application Development
+ASP.Net wb forms 
+
+9/10/2020
+-----
+
+ASP.Net Page Life cycle
+
+-Application Level Events 
+-Page Level Events
+-Control Level Events
+
+
+
 
 Feedback:
 1. Assignments
