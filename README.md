@@ -1,7 +1,7 @@
-8/18/2020
+Session :1 -->8/18/2020
 -----------------
 
-Session :1 
+
 
 Topics 
 Dot Net Framework 
@@ -62,7 +62,7 @@ Refer dll of third party ( ABCPDF ) -- C++,C
  
  
  
- 8/19/2020
+Session :2 --> 8/19/2020
  -----------
  
  GitHub 
@@ -78,7 +78,7 @@ Refer dll of third party ( ABCPDF ) -- C++,C
  
  
  
- 8/20/2020
+Session :3 --> 8/20/2020
  ------------
  
  - Exception Handling
@@ -92,7 +92,7 @@ Refer dll of third party ( ABCPDF ) -- C++,C
 	
 	
  
- 8/21/2020
+ Session :4 -->8/21/2020
  ----------
 -Access Modifiers
 
@@ -111,14 +111,14 @@ Types :
  project 2  - If I refer the project 1 
 
 
-8/25/2020
+Session :5 -->8/25/2020
 ---------
 OOPS
 1.Encapsulation
 	
 2.Inheritance
 
-8/26/2020
+Session :6 -->8/26/2020
 --------
 Inheritance 
 	-> Multilevel Inheritance
@@ -127,7 +127,7 @@ Polymorphism
 	->Complietime Polymorphism
 	->Runtime Polymorphism
 
-9/01/2020
+Session :7 -->9/01/2020
 ---------
 Sealed Class
 
@@ -138,13 +138,13 @@ Sealed Class
 	While Loop
 	For each Loop
 
-9/02/2020
+Session :8-->9/02/2020
 ----------
 Static Class
 Abstract Class
 Interfaces
 
-9/03/2020
+Session :9 -->9/03/2020
 -----------
 -List
 -Reflection
@@ -152,12 +152,12 @@ Interfaces
 -Readonly
 -Enum
 
-9/09/2020
+Session :10 -->9/09/2020
 -----------
 Web Application Development
 ASP.Net wb forms 
 
-9/10/2020
+Session :11 -->9/10/2020
 -----
 
 ASP.Net Page Life cycle
@@ -166,6 +166,15 @@ ASP.Net Page Life cycle
 -Page Level Events
 -Control Level Events
 
+Session :12 -->9/11/2020
+----------------------
+Master Pages
+User Controls
+
+Session :13 -->9/12/2020
+------------------------
+IsPostback
+Session Management
 
 
 
