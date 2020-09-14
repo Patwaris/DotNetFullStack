@@ -181,6 +181,9 @@ Session :13 -->9/12/2020
 Session :14 -->9/14/2020
 ------------------------
 CSS
+ - Inline CSS
+ - Internal CSS
+ - External CSS
 Javascript
 
 
