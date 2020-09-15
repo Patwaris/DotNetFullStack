@@ -187,6 +187,18 @@ CSS
 Javascript
 
 
+Session :15 -->9/14/2020
+------------------------
+Javascript 
+ - variables
+ - Datatypes
+ -if
+ -for
+ -functions
+ -document.getElementById
+
+
+
 
 
 
