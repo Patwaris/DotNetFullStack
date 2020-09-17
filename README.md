@@ -178,6 +178,29 @@ Session :13 -->9/12/2020
    ViewState
    Session 
 
+Session :14 -->9/14/2020
+------------------------
+CSS
+ - Inline CSS
+ - Internal CSS
+ - External CSS
+Javascript
+
+
+Session :15 -->9/14/2020
+------------------------
+Javascript 
+ - variables
+ - Datatypes
+ -if
+ -for
+ -functions
+ -document.getElementById
+
+
+
+
+
 
 
 Feedback:
