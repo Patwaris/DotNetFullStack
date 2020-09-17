@@ -1,0 +1,2 @@
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="ButtonUserControl.ascx.cs" Inherits="EmptyWebApp.UserControls.ButtonUserControl" %>
+<asp:Button ID="Button1" runat="server" Text="Admin" OnClick="Button1_Click" /><asp:Button ID="Button2" runat="server" Text="Student" />
