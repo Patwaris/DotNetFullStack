@@ -187,7 +187,7 @@ CSS
 Javascript
 
 
-Session :15 -->9/14/2020
+Session :15 -->9/15/2020
 ------------------------
 Javascript 
  - variables
@@ -197,19 +197,19 @@ Javascript
  -functions
  -document.getElementById
 
+Session :16 -->9/17/2020
+------------------------
+ASP.Net controls
+Jquery Introduction
+
+Session :17 -->9/19/2020
+-------------------------
+MVC Introduction
 
 
 
 
 
-
-Feedback:
-1. Assignments
-2. utilizaton of 1 and half hour 
-
-
-
- 
  
  
  
