@@ -38,5 +38,10 @@ namespace EmptyWebApp
                 lblUserId.Text= ViewState["UN"].ToString();
             }
         }
+
+        protected void txtUser_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -58,6 +58,15 @@ namespace EmptyWebApp {
         protected global::System.Web.UI.WebControls.TextBox txtPW;
         
         /// <summary>
+        /// chk control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CheckBox chk;
+        
+        /// <summary>
         /// Button1 control.
         /// </summary>
         /// <remarks>
@@ -74,6 +83,33 @@ namespace EmptyWebApp {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::EmptyWebApp.UserControls.ButtonUserControl ButtonUserControl;
+        
+        /// <summary>
+        /// dd control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList dd;
+        
+        /// <summary>
+        /// rb control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RadioButton rb;
+        
+        /// <summary>
+        /// hl control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.HyperLink hl;
         
         /// <summary>
         /// lblUserId control.

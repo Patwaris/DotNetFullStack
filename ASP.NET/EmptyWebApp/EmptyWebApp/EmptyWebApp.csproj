@@ -72,10 +72,12 @@
   <ItemGroup>
     <Content Include="AboutUs.aspx" />
     <Content Include="ContactUs.aspx" />
+    <Content Include="Content\Jquery.js" />
     <Content Include="Content\myAppStyles.css" />
     <Content Include="Global.asax" />
     <Content Include="Home.aspx" />
     <Content Include="Images\Client-Server_Arch.PNG" />
+    <Content Include="JQueryDemo.aspx" />
     <Content Include="UserControls\ButtonUserControl.ascx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -103,6 +105,13 @@
     </Compile>
     <Compile Include="Home.aspx.designer.cs">
       <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="JQueryDemo.aspx.cs">
+      <DependentUpon>JQueryDemo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="JQueryDemo.aspx.designer.cs">
+      <DependentUpon>JQueryDemo.aspx</DependentUpon>
     </Compile>
     <Compile Include="MyApp.Master.cs">
       <DependentUpon>MyApp.Master</DependentUpon>
