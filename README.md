@@ -205,6 +205,12 @@ Jquery Introduction
 Session :17 -->9/19/2020
 -------------------------
 MVC Introduction
+Controllers
+
+Session :18 -->9/21/2020
+--------------------------
+Views
+Models
 
 
 
