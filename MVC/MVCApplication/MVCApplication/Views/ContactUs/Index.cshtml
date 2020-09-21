@@ -1,0 +1,36 @@
+﻿@model MVCApplication.Models.EmpInfo
+
+@{
+    ViewBag.Title = "Details";
+}
+
+
+<h2>Employee Info</h2>
+
+<table>
+    <tr>
+        <td>
+            Emp. Id :
+        </td>
+        <td>
+            @Model.EmpId
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Name :
+        </td>
+        <td>
+            @Model.Name
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Dept :
+        </td>
+        <td>
+            @Model.Dept
+        </td>
+    </tr>
+</table>
+
