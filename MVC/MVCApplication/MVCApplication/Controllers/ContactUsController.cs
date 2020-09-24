@@ -14,12 +14,29 @@ namespace MVCApplication.Controllers
         {
             EmpBusinessLayer objemp_BL = new EmpBusinessLayer();
             EmpInfo empInfo=objemp_BL.GetById(empId);
+            ViewBag.LoginUser = empInfo.Name;
+            ViewData["EmpInformation"] = empInfo;
             return View(empInfo);
         }
 
-        public ActionResult SampleActionMethod()
+        public ActionResult ActionMethod1()
         {
+            TempData["EmpName"] = "Test Name";
             return Content("Test");
+        }
+
+        public ActionResult ActionMethod2()
+        {
+            string _empName = TempData["EmpName"].ToString();
+            TempData.Keep();
+            return Content(_empName);
+        }
+
+        public ActionResult ActionMethod3()
+        {
+            string _empName = TempData["EmpName"].ToString();
+            TempData.Keep();
+            return Content(_empName);
         }
     }
 }

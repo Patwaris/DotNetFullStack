@@ -4,6 +4,9 @@
     ViewBag.Title = "Details";
 }
 
+@{ 
+    var employeeInfo = ViewData["EmpInformation"] as MVCApplication.Models.EmpInfo;
+}
 
 <h2>Employee Info</h2>
 
@@ -13,7 +16,8 @@
             Emp. Id :
         </td>
         <td>
-            @Model.EmpId
+            @*@Model.EmpId*@
+            @employeeInfo.EmpId
         </td>
     </tr>
     <tr>
@@ -21,7 +25,9 @@
             Name :
         </td>
         <td>
-            @Model.Name
+            @*@Model.Name*@
+            @employeeInfo.Name
+            @ViewBag.LoginUser
         </td>
     </tr>
     <tr>

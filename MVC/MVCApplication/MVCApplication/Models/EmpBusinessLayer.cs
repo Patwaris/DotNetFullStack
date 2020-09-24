@@ -21,5 +21,10 @@ namespace MVCApplication.Models
             };
             return _empInfo;
         }
+
+        public void GetCustInfo()
+        {
+            //Implementation
+        }
     }
 }
