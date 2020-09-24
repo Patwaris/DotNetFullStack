@@ -8,22 +8,24 @@
     <link rel="stylesheet" type="text/css" href="Content/myAppStyles.css" />
     <script type="text/javascript">
         function Wish() {
-            var user = document.getElementById('ContentPlaceHolder1_txtUser');
-            if (user.value == "") {
-                //  alert('Please enter username');
-                var msg = document.getElementById('ContentPlaceHolder1_userErrmsg');
-                msg.innerHTML = "*Please enter userName";
-                return false;
-            }
-            else {
-                var msg = document.getElementById('ContentPlaceHolder1_userErrmsg');
-                msg.innerHTML = "";
-                return true;
-            }
-            //let a = 10;
-            //for (var counter = 1; counter < 5; counter++) {
-            //    alert(counter);
-            //}            
+            alert("hi");
+            //debugger;
+            //var user = document.getElementById('ContentPlaceHolder1_txtUser');
+            //if (user.value == "") {
+            //    //  alert('Please enter username');
+            //    var msg = document.getElementById('ContentPlaceHolder1_userErrmsg');
+            //    msg.innerHTML = "*Please enter userName";
+            //    return false;
+            //}
+            //else {
+            //    var msg = document.getElementById('ContentPlaceHolder1_userErrmsg');
+            //    msg.innerHTML = "";
+            //    return true;
+            //}
+            ////let a = 10;
+            ////for (var counter = 1; counter < 5; counter++) {
+            ////    alert(counter);
+            ////}            
         }
 
     </script>
@@ -44,11 +46,11 @@
         <asp:CheckBox ID="chk" runat="server" Text="Male" Checked="true" />
     </div>
     <div style="align-content: center">
-        <asp:Button ID="Button1" runat="server" Text="Submit" OnClick="Button1_Click" OnClientClick="return Wish();" />
+        <asp:Button ID="Button1" runat="server" Text="Submit" OnClick="Button1_Click" OnClientClick="Wish();" />
         <uc1:ButtonUserControl runat="server" ID="ButtonUserControl" />
     </div>
     <div>
-        <asp:DropDownList ID="dd" runat="server" >
+        <asp:DropDownList ID="dd" runat="server" onchange="Wish()" OnSelectedIndexChanged="dd_SelectedIndexChanged" AutoPostBack="true"  >
             <asp:ListItem Selected="True">--Select--</asp:ListItem>
             <asp:ListItem>India</asp:ListItem>
             <asp:ListItem>USA</asp:ListItem>

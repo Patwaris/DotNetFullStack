@@ -14,7 +14,14 @@ namespace EmptyWebApp
         {
             if (!IsPostBack)
             {
-               // txtUser.Text = "Bharath";
+                // txtUser.Text = "Bharath";
+                List<string> data = new List<string>();
+                data.Add("Test");
+                data.Add("Test1");
+               dd.DataSource =data;
+                dd.DataTextField = data[0];
+                //dd.DataValueField = data.Id;
+
             }
             else
             {
@@ -40,6 +47,11 @@ namespace EmptyWebApp
         }
 
         protected void txtUser_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void dd_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }
