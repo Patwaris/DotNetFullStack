@@ -1,31 +1,90 @@
-﻿@{
+﻿
+@using MVCApplication.Models
+
+@model MVCApplication.Models.EmpInfo
+
+@{
     ViewBag.Title = "Home Page";
 }
 
-<div class="jumbotron">
-    <h1>ASP.NET</h1>
-    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
-    <p><a href="https://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
-</div>
+<head>
+    <style>
+        td {
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+    </style>
 
-<div class="row">
-    <div class="col-md-4">
-        <h2>Getting started</h2>
-        <p>
-            ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-            enables a clean separation of concerns and gives you full control over markup
-            for enjoyable, agile development.
-        </p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
-    </div>
-    <div class="col-md-4">
-        <h2>Get more libraries</h2>
-        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
-    </div>
-    <div class="col-md-4">
-        <h2>Web Hosting</h2>
-        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
-    </div>
-</div>
+</head>
+<h2>Create Employee</h2>
+
+<table>
+    <tr>
+        <td>
+            User Name:
+        </td>
+        <td>
+            @Html.TextBox("UserName")
+            @Html.TextBoxFor(a => a.Name)
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Paswword:
+        </td>
+        <td>
+            @Html.Password("Password")
+        </td>
+    </tr>
+    <tr>
+        <td>Select Department:</td>
+        <td>
+            @Html.DropDownList("Departments", new List<SelectListItem>
+            {
+                  new SelectListItem { Text = "IT", Value = "1", Selected=true},
+                  new SelectListItem { Text = "HR", Value = "2"},
+                  new SelectListItem { Text = "Payroll", Value = "3"}
+            }, "Select Department",
+             new { @class = "form-control" })
+        </td>
+    </tr>
+
+    <tr>
+        <td>Gender: </td>
+        <td>
+            @Html.DropDownList("EmployeeGender",
+                    new SelectList(Enum.GetValues(typeof(Department.Gender))),
+                    "Select Gender",
+                    new { @class = "form-control" })
+        </td>
+    </tr>
+    @*  <tr>
+            <td>
+                Male:
+            </td>
+            <td>
+                @Html.RadioButton("Gender", "Male")
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Female:
+            </td>
+            <td>
+                @Html.RadioButton("Gender", "Female")
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Is Active:
+            </td>
+            <td>
+                @Html.CheckBox("isActive", true)
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="button" value="Create"  onclick="location.href='@Url.Action("Create", "User")'" />
+            </td>
+        </tr>*@
+</table>

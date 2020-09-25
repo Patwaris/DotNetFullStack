@@ -26,5 +26,7 @@ namespace MVCApplication.Models
         {
             //Implementation
         }
+
+        
     }
 }
