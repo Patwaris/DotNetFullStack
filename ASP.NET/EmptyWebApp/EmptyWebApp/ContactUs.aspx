@@ -7,25 +7,24 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <link rel="stylesheet" type="text/css" href="Content/myAppStyles.css" />
     <script type="text/javascript">
-        function Wish() {
-            alert("hi");
-            //debugger;
-            //var user = document.getElementById('ContentPlaceHolder1_txtUser');
-            //if (user.value == "") {
-            //    //  alert('Please enter username');
-            //    var msg = document.getElementById('ContentPlaceHolder1_userErrmsg');
-            //    msg.innerHTML = "*Please enter userName";
-            //    return false;
-            //}
-            //else {
-            //    var msg = document.getElementById('ContentPlaceHolder1_userErrmsg');
-            //    msg.innerHTML = "";
-            //    return true;
-            //}
-            ////let a = 10;
-            ////for (var counter = 1; counter < 5; counter++) {
-            ////    alert(counter);
-            ////}            
+        function Wish() {            
+          
+            var user = document.getElementById('ContentPlaceHolder1_txtUser');
+            if (user.value == "") {
+                alert('Please enter username');
+                var msg = document.getElementById('ContentPlaceHolder1_userErrmsg');
+                msg.innerHTML = "*Please enter userName";
+                return false;
+            }
+            else {
+                var msg = document.getElementById('ContentPlaceHolder1_userErrmsg');
+                msg.innerHTML = "";
+                return true;
+            }
+            //let a = 10;
+            //for (var counter = 1; counter < 5; counter++) {
+            //    alert(counter);
+            //}            
         }
 
     </script>

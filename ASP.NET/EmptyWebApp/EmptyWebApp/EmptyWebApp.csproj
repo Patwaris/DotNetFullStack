@@ -74,6 +74,7 @@
     <Content Include="ContactUs.aspx" />
     <Content Include="Content\Jquery.js" />
     <Content Include="Content\myAppStyles.css" />
+    <Content Include="FileNotFound.htm" />
     <Content Include="Global.asax" />
     <Content Include="Home.aspx" />
     <Content Include="Images\Client-Server_Arch.PNG" />
