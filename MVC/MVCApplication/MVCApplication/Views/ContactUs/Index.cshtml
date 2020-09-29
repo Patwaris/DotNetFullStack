@@ -4,39 +4,43 @@
     ViewBag.Title = "Details";
 }
 
-@{ 
+@{
     var employeeInfo = ViewData["EmpInformation"] as MVCApplication.Models.EmpInfo;
 }
 
 <h2>Employee Info</h2>
-
-<table>
-    <tr>
-        <td>
-            Emp. Id :
-        </td>
-        <td>
-            @*@Model.EmpId*@
-            @employeeInfo.EmpId
-        </td>
-    </tr>
-    <tr>
-        <td>
-            Name :
-        </td>
-        <td>
-            @*@Model.Name*@
-            @employeeInfo.Name
-            @ViewBag.LoginUser
-        </td>
-    </tr>
-    <tr>
-        <td>
-            Dept :
-        </td>
-        <td>
-            @Model.Dept
-        </td>
-    </tr>
-</table>
+@using (Html.BeginForm("Insert", "ContactUs", FormMethod.Post))
+{
+    <table>
+        <tr>
+            <td>
+                Emp. Name :
+            </td>
+            <td>                
+                @Html.TextBoxFor(a => a.Name)
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Name :
+            </td>
+            <td>
+                @*@Model.Name*@
+                @employeeInfo.Name
+                @ViewBag.LoginUser
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Dept :
+            </td>
+            <td>
+                @Model.Dept
+            </td>
+        </tr>
+        <tr>
+            <td><input type="submit" class="btn-primary btn" value="Create" /></td>
+        </tr>
+    </table>
+}
 

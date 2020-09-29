@@ -14,7 +14,6 @@
             padding-bottom: 10px;
         }
     </style>
-
 </head>
 <h2>Create Employee</h2>
 
@@ -24,7 +23,7 @@
             User Name:
         </td>
         <td>
-            @Html.TextBox("UserName")
+            // @Html.TextBox("UserName")
             @Html.TextBoxFor(a => a.Name)
         </td>
     </tr>
@@ -58,33 +57,33 @@
                     new { @class = "form-control" })
         </td>
     </tr>
-    @*  <tr>
-            <td>
-                Male:
-            </td>
-            <td>
-                @Html.RadioButton("Gender", "Male")
-            </td>
-        </tr>
-        <tr>
-            <td>
-                Female:
-            </td>
-            <td>
-                @Html.RadioButton("Gender", "Female")
-            </td>
-        </tr>
-        <tr>
-            <td>
-                Is Active:
-            </td>
-            <td>
-                @Html.CheckBox("isActive", true)
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <input type="button" value="Create"  onclick="location.href='@Url.Action("Create", "User")'" />
-            </td>
-        </tr>*@
+    <tr>
+        <td>
+            Male:
+        </td>
+        <td>
+            @Html.RadioButton("Gender", "Male")
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Female:
+        </td>
+        <td>
+            @Html.RadioButton("Gender", "Female")
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Is Active:
+        </td>
+        <td>
+            @Html.CheckBox("isActive", true)
+        </td>
+    </tr>
+    <tr>
+        <td>
+            @Html.Partial("PartialViewExample")
+        </td>
+    </tr>
 </table>

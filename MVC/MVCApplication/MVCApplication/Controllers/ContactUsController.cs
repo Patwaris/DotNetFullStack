@@ -13,7 +13,7 @@ namespace MVCApplication.Controllers
         public ActionResult Index(int empId)
         {
             EmpBusinessLayer objemp_BL = new EmpBusinessLayer();
-            EmpInfo empInfo=objemp_BL.GetById(empId);
+            EmpInfo empInfo = objemp_BL.GetById(empId);
             ViewBag.LoginUser = empInfo.Name;
             ViewData["EmpInformation"] = empInfo;
             return View(empInfo);
@@ -38,5 +38,12 @@ namespace MVCApplication.Controllers
             TempData.Keep();
             return Content(_empName);
         }
+        public string Insert(EmpInfo emp)
+        {
+            string _name = emp.Name;
+            _name = Request["Name"];
+            return _name;
+        }
+
     }
 }
