@@ -229,8 +229,19 @@ Session :22-->9/28/2020
 HTML Helpers - Continuation..
 PartialViews
 WEB API Intro
+
+Session :23 -->09/29/2020
+-------------------------
+WEB API project creation
  
- 
+Session :24 -->09/30/2020
+-------------------------
+WEB API service - consuming in client application
+
+Session :25 --> 10/01/2020
+---------------------------
+SQL Server introduction
+
  
  
  
