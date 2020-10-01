@@ -14,6 +14,40 @@
             padding-bottom: 10px;
         }
     </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>        
+        $(document).ready(function () {            
+            $("#Get").click(function () {
+                $.ajax({
+                    url: 'http://dummy.restapiexample.com/api/v1/employees',
+                    type: 'GET',
+                    dataType: 'json',
+                    success: function (data) {
+                        console.log(data);
+                    },
+                    error: function (e) {
+                        console.log(e);
+                    }
+                });
+            });
+
+            $("#Save").click(function () {
+                var _data = { "name": "test", "salary": "123", "age": "23" };
+                $.ajax({
+                    url: 'http://dummy.restapiexample.com/api/v1/create',
+                    type: 'POST',
+                    dataType: 'json',
+                    data: _data,
+                    success: function (data) {
+                        console.log(data);
+                    },
+                    error: function () {
+                        console.log('Error in Operation');
+                    }
+                });
+            });  
+        });
+    </script>
 </head>
 <h2>Create Employee</h2>
 
@@ -23,8 +57,8 @@
             User Name:
         </td>
         <td>
-            // @Html.TextBox("UserName")
-            @Html.TextBoxFor(a => a.Name)
+            @Html.TextBox("UserName")
+            @*@Html.TextBoxFor(a => a.Name)*@
         </td>
     </tr>
     <tr>
@@ -81,9 +115,13 @@
             @Html.CheckBox("isActive", true)
         </td>
     </tr>
+    
     <tr>
         <td>
-            @Html.Partial("PartialViewExample")
+            <input type="button" id="Get" value="Get Data" />
+        </td>
+        <td>
+            <input type="button" id="Save" value="Save Data" />
         </td>
     </tr>
 </table>
