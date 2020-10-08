@@ -242,6 +242,14 @@ Session :25 --> 10/01/2020
 ---------------------------
 SQL Server introduction
 
+Session: 26 -->10/7/2020
+------------------------
+SQL Server Part 2 
+
+Session: 27 -->10/8/2020
+------------------------
+SQL Server Part 3
+
  
  
  
