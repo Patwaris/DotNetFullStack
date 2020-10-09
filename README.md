@@ -250,6 +250,11 @@ Session: 27 -->10/8/2020
 ------------------------
 SQL Server Part 3
 
+Session:28 -->10/09/2020
+-------------------------
+SQL Server Part4 
+ - Views, Stored Procedures, Functions, Tranactions
+
  
  
  
