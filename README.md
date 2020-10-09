@@ -1,8 +1,5 @@
 Session :1 -->8/18/2020
 -----------------
-
-
-
 Topics 
 Dot Net Framework 
 	-CLR, CTS, CLS
