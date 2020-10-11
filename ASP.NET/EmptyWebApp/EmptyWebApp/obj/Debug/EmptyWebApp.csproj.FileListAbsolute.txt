@@ -107,8 +107,6 @@ F:\DotNet_Training_08182020\DotNetFullStack\ASP.NET\EmptyWebApp\EmptyWebApp\bin\
 F:\DotNet_Training_08182020\DotNetFullStack\ASP.NET\EmptyWebApp\EmptyWebApp\bin\roslyn\VBCSCompiler.exe
 F:\DotNet_Training_08182020\DotNetFullStack\ASP.NET\EmptyWebApp\EmptyWebApp\bin\roslyn\VBCSCompiler.exe.config
 F:\DotNet_Training_08182020\DotNetFullStack\ASP.NET\EmptyWebApp\EmptyWebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-F:\DotNet_Training_08182020\DotNetFullStack\ASP.NET\EmptyWebApp\EmptyWebApp\bin\ConsoleApp1.pdb
-F:\DotNet_Training_08182020\DotNetFullStack\ASP.NET\EmptyWebApp\EmptyWebApp\bin\ConsoleApp1.exe.config
 F:\DotNet_Training_08182020\DotNetFullStack\ASP.NET\EmptyWebApp\EmptyWebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 F:\DotNet_Training_08182020\DotNetFullStack\ASP.NET\EmptyWebApp\EmptyWebApp\obj\Debug\EmptyWebApp.csprojAssemblyReference.cache
 F:\DotNet_Training_08182020\DotNetFullStack\ASP.NET\EmptyWebApp\EmptyWebApp\obj\Debug\EmptyWebApp.csproj.CoreCompileInputs.cache
@@ -166,6 +164,7 @@ F:\DotNetFullStack\ASP.NET\EmptyWebApp\EmptyWebApp\bin\roslyn\VBCSCompiler.exe
 F:\DotNetFullStack\ASP.NET\EmptyWebApp\EmptyWebApp\bin\roslyn\VBCSCompiler.exe.config
 F:\DotNetFullStack\ASP.NET\EmptyWebApp\EmptyWebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 F:\DotNetFullStack\ASP.NET\EmptyWebApp\EmptyWebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\DotNetFullStack\ASP.NET\EmptyWebApp\EmptyWebApp\obj\Debug\EmptyWebApp.csprojAssemblyReference.cache
 F:\DotNetFullStack\ASP.NET\EmptyWebApp\EmptyWebApp\obj\Debug\EmptyWebApp.csproj.CoreCompileInputs.cache
 F:\DotNetFullStack\ASP.NET\EmptyWebApp\EmptyWebApp\obj\Debug\EmptyWebApp.csproj.CopyComplete
 F:\DotNetFullStack\ASP.NET\EmptyWebApp\EmptyWebApp\obj\Debug\EmptyWebApp.dll

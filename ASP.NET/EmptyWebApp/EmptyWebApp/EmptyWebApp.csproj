@@ -74,7 +74,6 @@
     <Content Include="ContactUs.aspx" />
     <Content Include="Content\Jquery.js" />
     <Content Include="Content\myAppStyles.css" />
-    <Content Include="FileNotFound.htm" />
     <Content Include="Global.asax" />
     <Content Include="Home.aspx" />
     <Content Include="Images\Client-Server_Arch.PNG" />
@@ -97,6 +96,7 @@
     <Compile Include="ContactUs.aspx.designer.cs">
       <DependentUpon>ContactUs.aspx</DependentUpon>
     </Compile>
+    <Compile Include="DBClass.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
