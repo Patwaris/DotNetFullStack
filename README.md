@@ -252,8 +252,10 @@ Session:28 -->10/09/2020
 SQL Server Part4 
  - Views, Stored Procedures, Functions, Tranactions
 
- 
- 
+Session:29 -->10/12/2020
+-------------------------
+Introduction to ADO.NET 
+Hands on with an example
  
  
  
