@@ -32,8 +32,10 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
     <h1>
-        <asp:Label ID="lblUserId" runat="server" Text="Label"></asp:Label>
+        <asp:Label ID="lblUserId" runat="server" Text=""></asp:Label>
     </h1>
+    <br />
+    <br />
     <div>
         <asp:Label ID="Label1" runat="server" Text="User Name : "></asp:Label>
         <asp:TextBox ID="txtUser" Text="Default" OnTextChanged="txtUser_TextChanged" AutoPostBack="true" runat="server"></asp:TextBox>

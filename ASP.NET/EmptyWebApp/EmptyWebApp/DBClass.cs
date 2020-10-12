@@ -9,14 +9,12 @@ namespace EmptyWebApp
 {
     public class DBClass
     {
-
-        string connStr = ConfigurationManager.ConnectionStrings["myConnectionString"].ConnectionString;
+        string ConnString= ConfigurationManager.ConnectionStrings["myConnectionString"].ConnectionString;
 
         public SqlConnection GetConnection()
         {
-            SqlConnection con = null;
-            con = new SqlConnection(connStr);
-            return con;
+            SqlConnection _conn = new SqlConnection(ConnString);
+            return _conn;
         }
     }
 }

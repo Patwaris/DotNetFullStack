@@ -97,6 +97,7 @@
       <DependentUpon>ContactUs.aspx</DependentUpon>
     </Compile>
     <Compile Include="DBClass.cs" />
+    <Compile Include="EmployeeHelper.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
