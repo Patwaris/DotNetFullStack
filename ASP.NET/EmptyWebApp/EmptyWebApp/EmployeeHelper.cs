@@ -46,5 +46,39 @@ namespace EmptyWebApp
             }
             return empName;
         }
+
+        public int UpdateEmpName(String empNumber,string empName)
+        {
+            int affected_rows = 0;
+            string sp_UpdateEmpName = "UpdateEmpName";
+
+            DBClass objDbClass = new DBClass();
+            SqlConnection conn = objDbClass.GetConnection();
+            try
+            {
+                conn.Open();
+                SqlCommand cmd = new SqlCommand(sp_UpdateEmpName, conn);
+                cmd.CommandType = CommandType.StoredProcedure;
+                SqlParameter param;
+                param = cmd.Parameters.Add("@empNum",SqlDbType.VarChar,10);
+                param.Value = empNumber;
+                param = cmd.Parameters.Add("@empName", SqlDbType.VarChar, 20);
+                param.Value = empName;
+
+                affected_rows = cmd.ExecuteNonQuery();
+            }
+            catch(Exception ex)
+            {
+
+            }
+            finally
+            {
+
+            }
+
+            return affected_rows;
+        }
+
+
     }
 }

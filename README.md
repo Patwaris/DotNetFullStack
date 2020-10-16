@@ -257,7 +257,10 @@ Session:29 -->10/12/2020
 Introduction to ADO.NET 
 Hands on with an example
  
- 
+Session:30th -->10/16/2020
+-------------------------
+ADO.NET -Using Stored Procedures
+Hands on with an example
  
  
  

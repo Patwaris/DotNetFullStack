@@ -60,6 +60,14 @@ namespace EmptyWebApp
         protected void dd_SelectedIndexChanged(object sender, EventArgs e)
         {
 
-        }      
+        }
+
+        protected void btnUpdate_Click(object sender, EventArgs e)
+        {
+            EmployeeHelper objEmp = new EmployeeHelper();
+            string emapName = txtEmpName.Text;
+            string empNumber = txtEmpNumer.Text;
+            objEmp.UpdateEmpName(empNumber, emapName);
+        }
     }
 }

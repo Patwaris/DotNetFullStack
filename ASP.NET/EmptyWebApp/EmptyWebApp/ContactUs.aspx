@@ -7,8 +7,8 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <link rel="stylesheet" type="text/css" href="Content/myAppStyles.css" />
     <script type="text/javascript">
-        function Wish() {            
-          
+        function Wish() {
+
             var user = document.getElementById('ContentPlaceHolder1_txtUser');
             if (user.value == "") {
                 alert('Please enter username');
@@ -53,7 +53,7 @@
         <uc1:ButtonUserControl runat="server" ID="ButtonUserControl" />
     </div>
     <div>
-        <asp:DropDownList ID="dd" runat="server" onchange="Wish()" OnSelectedIndexChanged="dd_SelectedIndexChanged" AutoPostBack="true"  >
+        <asp:DropDownList ID="dd" runat="server" onchange="Wish()" OnSelectedIndexChanged="dd_SelectedIndexChanged" AutoPostBack="true">
             <asp:ListItem Selected="True">--Select--</asp:ListItem>
             <asp:ListItem>India</asp:ListItem>
             <asp:ListItem>USA</asp:ListItem>
@@ -65,8 +65,20 @@
         <asp:RadioButton ID="rb" runat="server" Text="Select" />
         <asp:HyperLink ID="hl" runat="server" NavigateUrl="~/Home.aspx">Click Me!</asp:HyperLink>
     </div>
+    <br />
+    <br />
+
     <div>
-       
+        <asp:Label ID="Label3" runat="server" Text="Emp Name : "></asp:Label>
+        <asp:TextBox ID="txtEmpName" runat="server"></asp:TextBox>
+    </div>
+
+    <div>
+        <asp:Label ID="Label4" runat="server" Text="Emp Number : "></asp:Label>
+        <asp:TextBox ID="txtEmpNumer" runat="server"></asp:TextBox>
+    </div>
+    <div>
+        <asp:Button ID="btnUpdate" runat="server" Text="Update" OnClick="btnUpdate_Click"  />
     </div>
 </asp:Content>
 
