@@ -1,0 +1,26 @@
+<h1>This Dealer's Component</h1>
+
+Dealer's Name :
+<div *ngIf="dealerName=='Amazon13'; else temp"> {{dealerName}}    
+</div>
+<ng-template #temp>Not matched</ng-template>
+
+<div *ngFor="let user of users;">
+    {{user}}
+</div>
+
+<ul *ngFor="let user of users;">
+    <li>
+        {{user}}
+    </li>
+</ul>
+
+
+<!-- <h2>Property Binding:</h2>
+<button id="btn" class="btn btn-primary" [disabled]="isSave">Submit</button>
+<img [src]="imageSrc"/>
+<h2>event binding</h2>
+<button id="btnsave" class="btn btn-success" (click)="save()">Save</button>
+
+<h2>Two way data binding</h2>
+<input id="input" [(ngModel)]="dealerName" /> -->
