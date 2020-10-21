@@ -266,14 +266,19 @@ Session:31 -->10/17/2020
 -------------------------
 AGILE Process
  
-Session:32 -->10/20/2020
+Session:32 -->10/19/2020
 -------------------------
 AGILE Process- Continuation
 
-Session:33 -->10/121/2020
+Session:33 -->10/20/2020
 -------------------------
 Angular Introduction and basics
+
+Session:34 -->10/21/2020
+-------------------------
+Project architecture
  
+
  
  
  
